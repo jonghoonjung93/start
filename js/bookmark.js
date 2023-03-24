@@ -15,7 +15,7 @@ function deleteBook(event) {
   //console.log(event.target.parentElement);
   const li = event.target.parentElement;
   //toDoList.removeChild(li);
-  li.remove(); //위의 내용과 같음
+  li.remove(); // 위의 내용과 같음
   //console.log(li.id);
   books = books.filter((element) => element.id !== parseInt(li.id)); //forEach처럼 각각실행, true만 남음
   saveBooks();
