@@ -39,6 +39,10 @@ body {
     color: bisque;
 }
 
+.thin-title {
+    color: bisque;
+}
+
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { /* 마우스를 가져다 댔을때 상태 */
@@ -47,3 +51,7 @@ a:hover { /* 마우스를 가져다 댔을때 상태 */
     text-decoration-color: #fff;
 }
 a:active { text-decoration: none; }
+
+.thin-bar {
+    width: 500px;
+}
