@@ -4,7 +4,7 @@ document
     event.preventDefault(); // prevent the default form submission behavior
 
     const winProps =
-      "height=269,width=330,resizable=1,scrollbars=1,status=0,toolbar=1,location=1,menubar=0";
+      "height=272,width=330,resizable=1,scrollbars=1,status=0,toolbar=1,location=1,menubar=0";
     const newWin = window.open(
       document.getElementById("url_for_thin").value,
       "aWin",
