@@ -1,57 +1,64 @@
 body {
-    /* background: beige; */
-    /* background-color:#aca6a6; */
-    background-color:#313031;
-    margin-left: 10px;
-    --bs-link-color-rgb: #fff;
+  /* background: beige; */
+  /* background-color:#aca6a6; */
+  background-color: #313031;
+  margin-left: 10px;
+  --bs-link-color-rgb: #fff;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .clock {
-    position: static;
-    font-size: 40px;
+  position: static;
+  font-size: 40px;
 }
 
 .todo-bar {
-    width: 500px;
+  width: 500px;
 }
 
 .form-control {
-    background-color: #b3aeae;
+  background-color: #b3aeae;
 }
 
 .input-group-text {
-    background-color: #706b6b;
+  background-color: #706b6b;
 }
 
 .book-bar {
-    width: 500px;
+  width: 500px;
 }
 
 .list {
-    color: bisque;
+  color: bisque;
 }
 
 .info-msg {
-    color: bisque;
+  color: bisque;
 }
 
 .thin-title {
-    color: bisque;
+  color: bisque;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { /* 마우스를 가져다 댔을때 상태 */
-    text-decoration: underline;
-    color: #fff;
-    text-decoration-color: #fff;
+a:link {
+  text-decoration: none;
 }
-a:active { text-decoration: none; }
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  /* 마우스를 가져다 댔을때 상태 */
+  text-decoration: underline;
+  color: #fff;
+  text-decoration-color: #fff;
+}
+a:active {
+  text-decoration: none;
+}
 
 .thin-bar {
-    width: 500px;
+  width: 500px;
 }
