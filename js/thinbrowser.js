@@ -5,9 +5,10 @@ document
 
     const winProps =
       "height=272,width=330,resizable=1,scrollbars=1,status=0,toolbar=1,location=1,menubar=0";
+    const uniqueName = "aWin" + Date.now(); // 유니크한 이름 생성
     const newWin = window.open(
       document.getElementById("url_for_thin").value,
-      "aWin",
+      uniqueName,
       winProps
     );
     newWin.focus();

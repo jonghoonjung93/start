@@ -2,3 +2,5 @@ nohup.out
 config.json
 *.pyc
 __pycache__
+*.txt
+*.log
